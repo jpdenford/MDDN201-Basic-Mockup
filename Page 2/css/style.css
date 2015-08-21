@@ -1,0 +1,91 @@
+html, body{
+	margin:0px;
+	padding: 0px;
+	background-color: gray;
+}	
+
+
+div{
+	/*border:dotted 1px red;*/
+}
+
+.track{
+	height:80px;
+}
+
+.stats{
+	height: 100%;
+}
+.trackTab{
+	display: inline;
+}
+hr{
+	margin: 10px auto 10px auto;
+}
+.container{
+	background-color: white;
+	min-height: 100%;
+}
+.navbar{
+	width:100%;
+	background-color: black;
+	height: 50px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.logo{
+	width:100px;
+	/*height:100%;*/
+	float:left;
+}
+.nav_one, .nav_two {
+    float: left;
+    background-color: orange;
+    height: 50px;
+    border-left:1px gray solid;
+}
+
+.navbar  a {
+    display: block;
+    width: 50px;
+    color:green;
+    margin-left: 50px;
+    text-align: left;
+}
+/*.nav_one, .nav_two{
+	display: inline;
+}*/
+
+.playButton{
+	width:50px;
+	height:50px;
+	border-radius: 50px;
+	background-color:orange;
+	margin: auto  0px auto 10px  ;
+	text-align: center;
+}
+
+.avatarBox{
+	min-height:250px;
+}
+.avatarImg{
+	margin:20px;
+	height:200px;
+}
+.statsContent{
+	margin:auto;
+	width:80%;
+	height:150px;
+}
+.track{
+	
+}
+.trackContents{
+	height:90%;
+	margin:auto;
+	background-color: #f59;
+	border-radius: 5px;
+}
